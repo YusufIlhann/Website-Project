@@ -1,0 +1,126 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.head {
+  border-style: dotted;
+  border-width: 10px 1px;
+}
+* {
+  font-size: 1.9rem;
+}
+.four {
+  width: 200px;
+  height: 200px;
+}
+html {
+  line-height: 1.15;
+  /* 1 */
+}
+
+body {
+  margin: 0;
+}
+
+.one {
+  width: 200px;
+  height: 250px;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+img {
+  border-style: none;
+  padding-top: 6px;
+  border-radius: 30px;
+  height: 50%;
+  width: 60%;
+}
+
+html {
+  background: lightgray;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+
+main {
+  background: white;
+  margin: 5rem auto;
+  max-width: 112rem;
+  padding: 5rem 2rem;
+  width: 90%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: lighter;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+h1 strong {
+  color: rgba(0, 0, 0, 1);
+  font-size: 1em;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 2.4rem;
+  font-weight: normal;
+  margin: 2.5rem 0;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.45;
+  margin-bottom: 6rem;
+}
+
+button {
+  background: transparent;
+  border: 1px solid #000000;
+  margin-bottom: 5rem;
+  padding: 2rem 8rem;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+li {
+  background-color: aliceblue;
+  margin: 3.3rem;
+  border: 2px black;
+  border-style: solid;
+  padding: 2px;
+}
+
+@media only screen and (min-width: 40.063em) {
+  ul {
+    background-color: rgb(225, 222, 222);
+
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-rows: 1fr 1fr;
+  }
+}
